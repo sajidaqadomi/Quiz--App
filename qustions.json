@@ -1,0 +1,75 @@
+[
+    {
+       "title":"whts h1 means?",
+       "choises":["ch1","ch2","ch3","ch4"],
+       "correct":"ch1"
+
+
+    },
+
+    {
+        "title":"whts h2 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch2"
+ 
+ 
+     },
+     {
+        "title":"whts h3 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch3"
+ 
+ 
+     },
+     {
+        "title":"whts h4 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch4"
+ 
+ 
+     },
+     {
+        "title":"whts h5 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch1"
+ 
+ 
+     },
+
+     {
+        "title":"whts h6 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch3"
+ 
+ 
+     },
+     {
+        "title":"whts h7 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch3"
+ 
+ 
+     },
+     {
+        "title":"whts h8 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch2"
+ 
+ 
+     },
+
+     {
+        "title":"whts h9 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch4"
+ 
+ 
+     },
+     {
+        "title":"whts h10 means?",
+        "choises":["ch1","ch2","ch3","ch4"],
+        "correct":"ch2"
+ 
+ 
+     }
+]

@@ -1,0 +1,124 @@
+ $mainColor:#bdc3c7;
+ $subColor:#2980b9;
+ $grounColor:#ecf0f1;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $mainColor;
+    font-family: 'PT Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.exam{
+    .exam-info{
+        background-color: #ecf0f1;
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            .name{
+                font-size: 40px;
+            }
+            .question-count{
+                font-size: 24px;
+                span{
+                    color: $subColor;
+                }
+            }
+        }
+    }
+    .question-area{
+        margin: 15px 0;
+        .content{
+            background-color:$grounColor ;
+            padding: 20px 10px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .choices{
+            
+            ul{
+                line-height:2.5;
+                
+                li{
+                    input{
+                        margin-right: 5px;
+                    }
+
+                }
+            }
+        }
+        .btn-content{
+            margin-top: 20px;
+            .btn{
+                width: 100%;
+                padding: 15px 20px;
+                text-align: center;
+                background-color: rgba($subColor, .8);
+                border: none;
+                cursor: pointer;
+                position: relative;
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: capitalize;
+                &:hover{
+                    top:-5px;
+                    background-color:rgba($subColor, 1);
+                    box-shadow: 1px 2px 12px rgba( #000000, .2);
+
+                }
+
+
+            }
+
+        }
+
+        
+    }
+    .bullets-timer{
+        .content{
+            padding: 15px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $grounColor;
+            .bullets-list{
+                .bullets-item{
+                    display: inline-block;
+                    width: 15px;
+                    height:15px;
+                    background-color: $mainColor;
+                    border-radius: 50%;
+                    &:not(:last-child){
+                        margin-right: 5px;
+                    }
+                    &.active{
+                        background-color: $subColor;
+                    }
+                }
+    
+            }
+        }
+       
+    }
+    .mark{
+        .content{
+            text-align: center;
+            padding: 120px;
+            font-weight: bold;
+        }
+    }
+
+}

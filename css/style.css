@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bdc3c7;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.exam .exam-info {
+  background-color: #ecf0f1;
+}
+
+.exam .exam-info .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.exam .exam-info .content .name {
+  font-size: 40px;
+}
+
+.exam .exam-info .content .question-count {
+  font-size: 24px;
+}
+
+.exam .exam-info .content .question-count span {
+  color: #2980b9;
+}
+
+.exam .question-area {
+  margin: 15px 0;
+}
+
+.exam .question-area .content {
+  background-color: #ecf0f1;
+  padding: 20px 10px;
+}
+
+.exam .question-area .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.exam .question-area .choices ul {
+  line-height: 2.5;
+}
+
+.exam .question-area .choices ul li input {
+  margin-right: 5px;
+}
+
+.exam .question-area .btn-content {
+  margin-top: 20px;
+}
+
+.exam .question-area .btn-content .btn {
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  background-color: rgba(41, 128, 185, 0.8);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.exam .question-area .btn-content .btn:hover {
+  top: -5px;
+  background-color: #2980b9;
+  -webkit-box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.exam .bullets-timer .content {
+  padding: 15px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ecf0f1;
+}
+
+.exam .bullets-timer .content .bullets-list .bullets-item {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #bdc3c7;
+  border-radius: 50%;
+}
+
+.exam .bullets-timer .content .bullets-list .bullets-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.exam .bullets-timer .content .bullets-list .bullets-item.active {
+  background-color: #2980b9;
+}
+
+.exam .mark .content {
+  text-align: center;
+  padding: 120px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
